@@ -1,0 +1,68 @@
+.header {
+  &__ribbon {
+    background-color: $bg-primary;
+    &__text {
+      color: $text-primary;
+      font-family: $open-font;
+      font-size: 12px;
+    }
+    &__social {
+      margin: 0 0.5rem;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+      img {
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transform: rotateY(360deg);
+          transition: all 0.5s ease-in-out;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &__navbar {
+    background-color: $bg-secondary;
+    .navbar {
+      background-color: $bg-secondary !important;
+    }
+    .navbar-nav {
+      text-align: center;
+    }
+    .navbar-dark {
+
+      .nav-item {
+        @media screen and (min-width: 992px){
+          margin: 0 0.5rem;
+          &:first-child {
+            margin-left: 0;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      .nav-item.active {
+        color: $text-secondary !important;
+      }
+      .nav-link {
+        color: $nav-link;
+        font-family: $open-font;
+        font-size: 14px;
+        text-transform: uppercase;
+        &:hover {
+          color: $text-secondary !important;
+        }
+      }
+      .nav-link.active {
+        color: $text-secondary !important;
+      }
+    }
+  }
+  &__logo {
+    width: 170px;
+  }
+}
