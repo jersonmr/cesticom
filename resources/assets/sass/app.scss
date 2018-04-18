@@ -13,10 +13,15 @@
 
 // Components
 @import "components/materialform";
+@import "components/buttons";
+@import "components/carousel";
 
 // Layout
 @import "Layout/header";
 @import "Layout/footer";
+
+// Pages
+@import "pages/home";
 
 
 

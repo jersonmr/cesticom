@@ -1,0 +1,28 @@
+.cesticom {
+  &__btn {
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: $open-font;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    &--blue {
+      border-color: $text-secondary;
+      color: $text-secondary;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: $text-primary;
+        color: $bg-primary;
+      }
+    }
+    &--white {
+      border-color: #fff;
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: #fff;
+        color: $text-primary;
+      }
+    }
+  }
+}

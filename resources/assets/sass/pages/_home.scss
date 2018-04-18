@@ -1,0 +1,172 @@
+.main {
+  min-height: 100vh;
+}
+// Banner
+.banner {
+  background: url("/../img/foto-slider-sm.jpg") no-repeat left center;
+  background-size: cover;
+  height: 222px;
+  max-height: 712px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    background: url("/../img/foto-slider-md.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 70vh;
+  }
+  @media screen and (min-width: 992px) {
+    background: url("/../img/foto-slider.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  &__content {
+    border: 1px solid $text-primary;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: auto;
+    display: none;
+    @media screen and (min-width: 768px) {
+      display: initial;
+      margin: initial;
+      margin-left: 2rem;
+    }
+  }
+  &__text {
+    color: $text-primary;
+    font-family: $oswald-font;
+    font-size: 40px;
+    text-transform: uppercase;
+    &--bold {
+      font-size: 58px;
+      font-weight: bold;
+    }
+  }
+}
+
+// Hero text
+.hero-text {
+  color: $text-primary;
+  font-family: $open-font;
+  font-size: 44px;
+  &__text {
+    text-align: center;
+  }
+  span {
+    color: $text-secondary;
+    font-weight: bold;
+  }
+}
+
+// Focus
+.focus {
+  color: $text-primary;
+  font-family: $open-font;
+  &__column {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+  }
+  &__img {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  &__title {
+    font-family: $oswald-font;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+  }
+  &__description {
+    font-size: 16px;
+  }
+}
+
+// Clients
+.clients {
+  background: linear-gradient(to right, $text-secondary, #00e1f8);
+  &__title {
+    color: #fff;
+    font-family: $oswald-font;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    color: $bg-primary;
+    font-family: $open-font;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__carousel {
+    &__line {
+      background: #fff;
+      display: block;
+      height: 2px;
+      width: 100%;
+      margin: 0.25rem auto 0.5rem;
+    }
+    &__name, &__description {
+      color: #fff;
+      font-family: $open-font;
+    }
+    &__name {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    &__description {
+      color: $bg-primary;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Team
+.team {
+  background-color: $bg-primary;
+  &__title {
+    color: $text-primary;
+    font-family: $oswald-font;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    color: $text-primary;
+    font-family: $open-font;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &__carousel {
+    img {
+      margin: auto;
+      width: 80% !important;
+    }
+    &__name, &__charge {
+      color: $text-primary;
+      font-family: $open-font;
+      text-align: center;
+    }
+    &__name {
+      font-size: 22px;
+      font-weight: 600;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+    &__charge {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}
+
