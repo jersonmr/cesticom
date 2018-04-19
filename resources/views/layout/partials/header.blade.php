@@ -35,10 +35,10 @@
         <div class="collapse navbar-collapse" id="collapseNavbar">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="{{ \Illuminate\Support\Facades\Request::is('/') ? 'nav-link active' : 'nav-link'}}" href="{{ route('home') }}">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <a class="{{ \Illuminate\Support\Facades\Request::is('nosotros') ? 'nav-link active' : 'nav-link'}}" href="{{ route('about') }}">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Servicios</a>

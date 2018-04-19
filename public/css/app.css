@@ -10688,7 +10688,7 @@ a.text-dark:focus {
 }
 
 body {
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -10757,7 +10757,7 @@ body {
 .cesticom__btn {
   border: 1px solid;
   border-radius: 5px;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -10785,6 +10785,10 @@ body {
 .cesticom__btn--white:hover {
   background-color: #fff;
   color: #354954;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none !important;
 }
 
 .owl-carousel .owl-dots {
@@ -10852,7 +10856,7 @@ body {
 
 .header__ribbon__text {
   color: #354954;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
 
@@ -10913,7 +10917,7 @@ body {
 
 .header__navbar .navbar-dark .nav-link {
   color: #ffffff;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -10933,7 +10937,7 @@ body {
 .footer {
   background-color: #293a44;
   color: #d9d9d9;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .footer__contact form legend {
@@ -11077,7 +11081,7 @@ body {
 
 .hero-text {
   color: #354954;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 44px;
 }
 
@@ -11092,7 +11096,7 @@ body {
 
 .focus {
   color: #354954;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .focus__column {
@@ -11141,7 +11145,7 @@ body {
 
 .clients__subtitle {
   color: #f7f8f9;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 17px;
   font-weight: 300;
   text-align: center;
@@ -11159,7 +11163,7 @@ body {
 .clients__carousel__name,
 .clients__carousel__description {
   color: #fff;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .clients__carousel__name {
@@ -11177,6 +11181,7 @@ body {
 
 .team {
   background-color: #f7f8f9;
+  text-align: center;
 }
 
 .team__title {
@@ -11184,16 +11189,14 @@ body {
   font-family: "Oswald", sans-serif;
   font-size: 42px;
   font-weight: bold;
-  text-align: center;
   text-transform: uppercase;
 }
 
 .team__subtitle {
   color: #354954;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 17px;
   font-weight: 300;
-  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -11205,7 +11208,7 @@ body {
 .team__carousel__name,
 .team__carousel__charge {
   color: #354954;
-  font-family: "Open", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
@@ -11217,6 +11220,102 @@ body {
 }
 
 .team__carousel__charge {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.about .header {
+  overflow: hidden;
+}
+
+.about .header__img {
+  min-width: 100vw;
+  max-width: 100%;
+}
+
+.about .text {
+  background: -webkit-gradient(linear, left top, right top, from(#00b7ca), to(#00e1f8));
+  background: linear-gradient(to right, #00b7ca, #00e1f8);
+  color: #fff;
+  text-align: center;
+}
+
+.about .text__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about .text__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.about .mv {
+  text-align: center;
+}
+
+.about .mv__title {
+  color: #ff9000;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about .mv__description {
+  color: #354954;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.about .employees {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .employees__item {
+  margin: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .about .employees__item {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about .employees__item {
+    width: calc(25% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about .employees__item {
+    width: calc(20% - 2rem);
+  }
+}
+
+.about .employees__name {
+  color: #354954;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 1rem 0 0;
+}
+
+.about .employees__charge {
+  color: #4b5c67;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 300;
 }

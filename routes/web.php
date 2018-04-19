@@ -13,4 +13,7 @@
 
 Route::get('/', function () {
     return view('start');
-});
+})->name('home');
+Route::get('/nosotros', function() {
+    return view('about');
+})->name('about');

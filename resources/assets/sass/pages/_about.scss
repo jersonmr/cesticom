@@ -1,0 +1,75 @@
+.about {
+  .header {
+    overflow: hidden;
+    &__img {
+      min-width: 100vw;
+      max-width: 100%;
+    }
+  }
+  .text {
+    background: linear-gradient(to right, #00b7ca, #00e1f8);
+    color: #fff;
+    text-align: center;
+    &__title {
+      font-family: $oswald-font;
+      font-size: 42px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__subtitle {
+      font-family: $open-font;
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
+
+  //  Mision, vision y quienes somos
+  .mv {
+    text-align: center;
+    &__title {
+      color: #ff9000;
+      font-family: $oswald-font;
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    &__description {
+      color: $text-primary;
+      font-family: $open-font;
+      font-size: 18px;
+    }
+  }
+
+  //  Employees
+  .employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__item {
+      margin: 1rem;
+      width: 100%;
+      @media screen and (min-width: 768px) {
+        width: calc(50% - 2rem);
+      }
+      @media screen and (min-width: 992px) {
+        width: calc(25% - 2rem);
+      }
+      @media screen and (min-width: 1200px) {
+        width: calc(20% - 2rem);
+      }
+    }
+    &__name {
+      color: $text-primary;
+      font-family: $open-font;
+      font-size: 22px;
+      font-weight: 600;
+      margin: 1rem 0 0;
+    }
+    &__charge {
+      color: #4b5c67;
+      font-family: $open-font;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}

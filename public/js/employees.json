@@ -1,0 +1,87 @@
+[
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-1.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-2.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-3.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-4.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-5.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-6.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-7.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-8.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-9.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-10.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-11.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-12.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-13.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-14.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-15.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-16.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  },
+  {
+    "photo": "http://cesticom-laravel.oo/img/employees/foto-equipo-17.png",
+    "name": "Nombre Apellido",
+    "charge": "Cargo en la empresa"
+  }
+]
