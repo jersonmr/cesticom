@@ -29,7 +29,7 @@
   </section>
 
   {{--Focus--}}
-  <section class="focus py-5">
+  <section class="focus pt-0 pb-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4 focus__column">
