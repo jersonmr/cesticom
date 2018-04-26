@@ -10893,6 +10893,11 @@ body {
   background-color: #293a44 !important;
 }
 
+.header__navbar button:focus {
+  border: 1px solid #00b7ca;
+  outline: none;
+}
+
 .header__navbar .navbar-nav {
   text-align: center;
 }
@@ -11318,6 +11323,89 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 300;
+}
+
+.login-container {
+  background: url("/../img/fondo-login-cesticom.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.login ::-webkit-input-placeholder {
+  color: #909ba1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  opacity: 1;
+}
+
+.login :-ms-input-placeholder {
+  color: #909ba1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  opacity: 1;
+}
+
+.login ::-ms-input-placeholder {
+  color: #909ba1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  opacity: 1;
+}
+
+.login ::placeholder {
+  color: #909ba1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  opacity: 1;
+}
+
+.login__title {
+  color: #354954;
+  font-family: "Oswald", sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.login .form-control {
+  border-color: #00b7ca;
+  border-radius: 8px;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.login__btn {
+  background-color: #ff9000;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.75rem 0;
+  text-transform: uppercase;
+  width: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.login__btn:hover {
+  background-color: #00b7ca;
 }
 
 .navbar-laravel {

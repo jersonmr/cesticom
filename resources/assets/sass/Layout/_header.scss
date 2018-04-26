@@ -29,6 +29,10 @@
     .navbar {
       background-color: $bg-secondary !important;
     }
+    button:focus {
+      border: 1px solid $text-secondary;
+      outline: none;
+    }
     .navbar-nav {
       text-align: center;
     }

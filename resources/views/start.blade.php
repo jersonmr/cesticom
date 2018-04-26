@@ -86,11 +86,7 @@
           <span class="clients__carousel__line"></span>
           <h5 class="clients__carousel__name">Plataforma CIGESI</h5>
           <span class="d-block clients__carousel__description">Web corporativa</span>
-        </div>
-        <div class="item"> Your Content </div>
-        <div class="item"> Your Content </div>
-        <div class="item"> Your Content </div>
-        <div class="item"> Your Content </div>
+        </div>        
       </div>
 
       <div class="row">
@@ -127,10 +123,7 @@
           <img src="{{ asset('img/foto-erika-blanco.png') }}" alt="">
           <h5 class="team__carousel__name">Erika Blanco</h5>
           <span class="d-block team__carousel__charge">Cargo en la empresa</span>
-        </div>
-        <div class="item"> Your Content </div>
-        <div class="item"> Your Content </div>
-        <div class="item"> Your Content </div>
+        </div>        
       </div>
 
       <div class="row">
@@ -151,6 +144,9 @@
       $('.owl-carousel.clients__carousel').owlCarousel({
         loop:true,
         margin:40,
+        mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
         nav:true,
         navText : [
           "<img src='{{ asset("img/flecha-izquierda-blanca.svg") }}'>",
@@ -173,6 +169,9 @@
       $('.owl-carousel.team__carousel').owlCarousel({
         loop:true,
         margin:40,
+        mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
         nav:true,
         navText : [
           "<img src='{{ asset("img/flecha-izquierda-azul.svg") }}'>",

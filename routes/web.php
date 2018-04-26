@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/nosotros', function() {
     return view('about');
 })->name('about');
+Route::get('login', function() {
+    return view('login');
+});

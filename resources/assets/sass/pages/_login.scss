@@ -1,0 +1,47 @@
+.login-container {
+    background: url("/../img/fondo-login-cesticom.jpg") no-repeat center center;
+    background-size: cover;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    ::placeholder {
+        color: #909ba1;
+        font-family: $open-font;
+        font-size: 15px;
+        opacity: 1;
+    }
+    &__title {
+        color: $text-primary;
+        font-family: $oswald-font;
+        font-size: 34px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+    .form-control {
+        border-color: #00b7ca;  
+        border-radius: 8px;
+        padding: 0.75rem;
+        text-align: center;        
+    }
+    &__btn {
+        background-color: #ff9000;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        font-family: $open-font;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        padding: 0.75rem 0;
+        text-transform: uppercase;
+        width: 50%;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: $text-secondary;
+        }
+    }
+}
